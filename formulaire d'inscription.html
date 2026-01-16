@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+    <link rel="stylesheet" href="formulaire d'inscription.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="title">Formulaire d’enregistrement des jeunes</div>
+
+    <form action="#">
+        <div class="user-details">
+
+            <div class="input-box">
+                <span class="details">Nom</span>
+                <input type="text" placeholder="Entrer votre nom" required>
+            </div>
+
+            <div class="input-box">
+                <span class="details">Prénom</span>
+                <input type="text" placeholder="Entrer votre prénom" required>
+            </div>
+
+            <div class="input-box">
+                <span class="details">Identifiant AEJ</span>
+                <input type="text" placeholder="Entrer votre identifiant AEJ" required>
+            </div>
+
+            <div class="input-box">
+                <span class="details">Contact</span>
+                <input type="tel" placeholder="Entrer votre contact" required>
+            </div>
+
+            <div class="input-box">
+                <span class="details">Niveau d’étude</span>
+                <select required>
+                    <option value="">Sélectionner</option>
+                    <option>Primaire</option>
+                    <option>Secondaire</option>
+                    <option>Supérieur</option>
+                    <option>Autre</option>
+                </select>
+            </div>
+
+            <div class="input-box">
+                <span class="details">Service recommandé</span>
+                <input type="text" placeholder="Service recommandé">
+            </div>
+
+            <div class="input-box">
+                <span class="details">Motif / Objet de visite</span>
+                <input type="text" placeholder="Motif de la visite" required>
+            </div>
+
+        </div>
+
+        <div class="gender-details">
+            <span class="gender-title">Genre</span><br>
+            <input type="radio" name="genre"> Masculin
+            <input type="radio" name="genre"> Féminin
+        </div>
+
+        <div class="button">
+            <input type="submit" value="S'inscrire">
+        </div>
+
+    </form>
+</div>
+
+</body>
+</html>
